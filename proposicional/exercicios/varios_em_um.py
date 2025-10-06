@@ -10,3 +10,12 @@ if q == 'true':
 else:
     q = False
 
+if p and q:
+    print("True , p e q não são verdadeiros")
+else:
+    print('False , p e q são diferentes')
+
+if p == True and q == False:
+    print("Se p entao q é falso")
+else:
+    print("True, p e q são V no se entao")
