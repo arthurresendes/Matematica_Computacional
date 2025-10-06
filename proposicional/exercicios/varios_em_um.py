@@ -43,3 +43,8 @@ if not q == True and not p == False:
     print("True")
 else:
     print("False")
+
+if (p or q) and not (p and q) == True:
+    print("True")
+else:
+    print('False')
