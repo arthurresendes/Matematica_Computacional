@@ -27,3 +27,9 @@ else:
 
 negacao_p = not p
 print(f"Ngeacao de p: {negacao_p}")
+
+r =  input("Digite true ou false para r: ").lower()
+if r == 'true':
+    r = True
+else:
+    r = False
