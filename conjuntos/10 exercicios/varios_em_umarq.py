@@ -32,3 +32,7 @@ U1 = A.union(B)
 U2 = B.union(C)
 UT = U1.union(U2)
 print(UT)
+
+intersec = A.intersection(B)
+print(intersec)
+print(intersec-C)
