@@ -19,3 +19,11 @@ if p == True and q == False:
     print("Se p entao q é falso")
 else:
     print("True, p e q são V no se entao")
+
+if p == q:
+    print("E bicondicional")
+else:
+    print("Não é bicondicional")
+
+negacao_p = not p
+print(f"Ngeacao de p: {negacao_p}")
