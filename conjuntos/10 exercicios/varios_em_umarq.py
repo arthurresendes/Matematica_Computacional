@@ -7,3 +7,19 @@ if A.issubset(B):
     print("A é subconjunto de B")
 else:
     print("A não é subconjunto de B")
+
+A = {1,2,3,4,5,6}
+B = {5,6,7,8,9,10}
+U =  A.union(B)
+print(U)
+complementar = U - A
+print(complementar)
+
+intersec = A.intersection(B)
+A = A - intersec
+B = B - intersec
+print(A,B)
+U = A.union(B)
+
+
+print(f"Qtd elementos em A: {len(A)}\nQtd elementos em B: {len(B)}\nQtd elementos em U: {len(U)}")
