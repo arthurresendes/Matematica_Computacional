@@ -23,3 +23,12 @@ U = A.union(B)
 
 
 print(f"Qtd elementos em A: {len(A)}\nQtd elementos em B: {len(B)}\nQtd elementos em U: {len(U)}")
+
+A = {1,2,3,4}
+B = {3,4,5,6}
+C = {4,6,8}
+
+U1 = A.union(B)
+U2 = B.union(C)
+UT = U1.union(U2)
+print(UT)
