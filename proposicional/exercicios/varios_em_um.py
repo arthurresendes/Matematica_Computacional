@@ -33,3 +33,13 @@ if r == 'true':
     r = True
 else:
     r = False
+
+if (p and q) or not r == True:
+    print("True")
+else:
+    print("False")
+
+if not q == True and not p == False:
+    print("True")
+else:
+    print("False")
