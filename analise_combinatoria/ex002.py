@@ -9,4 +9,5 @@ estilo_cabelo = 6
 tipo_roupa = 8
 cores_acessorio = 4
 avatar = modelo_corpo * estilo_cabelo * tipo_roupa * cores_acessorio
+
 print(avatar)
